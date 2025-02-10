@@ -1,3 +1,1 @@
-
-export * from '@mui/base';
-export * from './components';
+export * from '@mui/material';
