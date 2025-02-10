@@ -1,11 +1,14 @@
 {
   "name": "ui-react",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "types": "dist/types/index.d.ts",
   "main": "dist/ui-react.cjs.js",
   "module": "dist/ui-react.esm.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "vite build && tsc -b",
     "lint": "eslint .",
