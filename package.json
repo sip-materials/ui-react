@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "type": "module",
   "types": "dist/types/index.d.ts",
-  "main": "dist/ui-react.cjs.js",
-  "module": "dist/ui-react.esm.js",
+  "main": "dist/index.es.js",
+  "module": "dist/index.esm.js",
   "files": [
     "dist"
   ],

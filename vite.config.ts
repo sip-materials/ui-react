@@ -16,7 +16,7 @@ export default defineConfig({
     lib: {
       entry: 'src/index.ts',  // The entry file for your library
       name: 'UiReactSIP',
-      fileName: (format) => `ui-react.${format}.js`,
+      fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {
       // Make sure to externalize deps that are peer dependencies
